@@ -17,7 +17,7 @@ const Employees = () => {
         width="auto"
         allowPaging
         allowSorting
-        pageSettings={{ pageCount: 5 }}
+        pageSettings={{ pageCount: 1 }}
         editSettings={editing}
         toolbar={toolbarOptions}
       >
