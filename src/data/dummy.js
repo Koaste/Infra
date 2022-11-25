@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineCalendar} from 'react-icons/ai';
+import { AiOutlineCalendar } from 'react-icons/ai';
 import { FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { BiTaskX, BiTask } from 'react-icons/bi';

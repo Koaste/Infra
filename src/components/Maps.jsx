@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import mapboxgl from 'mapbox-gl'
 import React from 'react';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia29hc3RlIiwiYSI6ImNsMHptMjU2aTJjNTQza3FvYmZwYXh3bm8ifQ.wmlwEyUDGdfnOn9EmXcZTg';
@@ -11,21 +11,8 @@ const Maps = () => {
       zoom: 10,
     }), [])
 
-    // data.forEach((name) => {
-		// 	var marker = new mapboxgl.Marker()
-		// 					.setLngLat(name.coordinates)
-		// 					.setPopup(new mapboxgl.Popup({ offset: 30 })
-		// 					.setHTML('<h4>' + location.city + '</h4>' + location.location))
-		// 					.addTo();
-    // })
-
   return (
-    <div>
-      {/* <Marker 
-        latitude={-79.70}
-        longitude={43.58}
-      /> */}
-    </div>
+    <div></div>
   )
 }
 

@@ -14,11 +14,11 @@ const DropDown = ({ currentMode }) => (
 
 const Ecommerce = () => {
   const { currentColor, currentMode } = useStateContext();
-  let currentDate = new Date();
-  let year = currentDate.getFullYear();
-  let month = currentDate.getMonth();
-  let day = currentDate.getDay();
-  
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
+  const month = currentDate.getMonth();
+  const day = currentDate.getDay();
+
   return (
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
