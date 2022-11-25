@@ -1,12 +1,8 @@
-import { useEffect, useRef, useState } from "react";
-import ReactMapGL, { Marker } from "react-map-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
-import data from '../data/miwayData.json'
+import { useEffect } from 'react';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import React from 'react';
 
-import React from 'react'
-
-mapboxgl.accessToken = 'pk.eyJ1Ijoia29hc3RlIiwiYSI6ImNsMHptMjU2aTJjNTQza3FvYmZwYXh3bm8ifQ.wmlwEyUDGdfnOn9EmXcZTg'
-
+mapboxgl.accessToken = 'pk.eyJ1Ijoia29hc3RlIiwiYSI6ImNsMHptMjU2aTJjNTQza3FvYmZwYXh3bm8ifQ.wmlwEyUDGdfnOn9EmXcZTg';
 const Maps = () => {
     useEffect(() => new mapboxgl.Map({
       container: 'map',

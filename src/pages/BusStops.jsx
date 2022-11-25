@@ -1,6 +1,5 @@
 import React from 'react';
-import mapboxgl from 'mapbox-gl';
-import Maps from "../components/Maps";
+import Maps from '../components/Maps';
 
 const BusStops = () => {
   return (
