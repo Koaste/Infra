@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
-
+// import { MapContainer, TileLayer} from 'leaflet'
 import { Footer, Sidebar, ThemeSettings } from './components';
 import { Ecommerce, Calendar, Employees, Stacked, Lighting, TransitWay, Cameras, Pyramid, BusStops, Kanban, Line, Area, Bar, Pie, Financial, ColorMapping } from './pages';
 import './App.css';
