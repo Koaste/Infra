@@ -478,7 +478,7 @@ export const links = [
   },
 
   {
-    title: 'Pages',
+    title: 'Infrastructure',
     links: [
       {
         name: 'BusStops',
@@ -496,10 +496,6 @@ export const links = [
         name: 'TransitWay',
         icon: <MdDirectionsTransitFilled />,
       },
-      {
-        name: 'employees',
-        icon: <IoMdContacts />,
-      },
       // {
       //   name: 'customers',
       //   icon: <RiContactsLine />,
@@ -514,8 +510,12 @@ export const links = [
         icon: <AiOutlineCalendar />,
       },
       {
-        name: 'kanban',
+        name: 'Tasks',
         icon: <BsKanban />,
+      },
+      {
+        name: 'employees',
+        icon: <IoMdContacts />,
       },
       // {
       //   name: 'editor',

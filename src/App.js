@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 // import { MapContainer, TileLayer} from 'leaflet'
 import { Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Calendar, Employees, Stacked, Lighting, TransitWay, Cameras, Pyramid, BusStops, Kanban, Line, Area, Bar, Pie, Financial, ColorMapping } from './pages';
+import { Ecommerce, Calendar, Employees, Stacked, Lighting, TransitWay, Cameras, Pyramid, BusStops, Tasks, Line, Area, Bar, Pie, Financial, ColorMapping } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -61,7 +61,7 @@ const App = () => {
               {/* <Navbar /> */}
             </div>
             <div>
-              {themeSettings && (<ThemeSettings />)}
+              {/* {themeSettings && (<ThemeSettings />)} */}
 
               <Routes>
                 {/* dashboard  */}
@@ -77,7 +77,7 @@ const App = () => {
                 {/* <Route path="/busstops" element={<Calendar />} /> */}
 
                 {/* apps  */}
-                <Route path="/kanban" element={<Kanban />} />
+                <Route path="/tasks" element={<Tasks />} />
                 {/* <Route path="/editor" element={<Editor />} /> */}
                 <Route path="/calendar" element={<Calendar />} />
                 {/* <Route path="/color-picker" element={<ColorPicker />} /> */}
